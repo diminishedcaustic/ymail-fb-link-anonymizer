@@ -1,0 +1,1 @@
+a little tool to specifically anonymize facebook links from yahoo mail. that is to say, you can paste the processed link without worrying about logging in or being in a different account.
