@@ -6,8 +6,42 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    background-color: rgb(41, 41, 41);
 }
 
+.header {
+    background-color: rgb(19, 19, 19);
+    padding: 16px;
+    text-align: center;
+    color: white;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 32px;
+}
+
+.card {
+    background-color: rgb(19, 19, 19);
+    padding: 8px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+button {
+    border-radius: 10px;
+    width: 100px;
+    background-color: rgba(90, 90, 90, 0.986);
+    border-style: none;
+    color: white;
+    padding: 2px;
+    border: 2px solid white;
+}
